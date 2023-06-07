@@ -2,8 +2,6 @@
 # code is basicly:https://github.com/google-research/deep_representation_one_class
 import argparse
 from pathlib import Path
-from tqdm import tqdm
-import datetime
 import torch
 from torch import optim
 from torch.utils.data import DataLoader

@@ -84,8 +84,3 @@ def get_mat_loader(config, cset):
         shuffle=shuffle_,
     )
     return data_Loader
-
-if __name__ == '__main__':
-    from config import Config
-    cfg = Config()
-    get_mat_loader(cfg, "test")

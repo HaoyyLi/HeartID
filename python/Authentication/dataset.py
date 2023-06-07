@@ -2,7 +2,6 @@ from torch.utils.data import Dataset
 from pathlib import Path
 from PIL import Image
 from joblib import Parallel, delayed
-from torchvision import transforms
 
 class Repeat(Dataset):
     def __init__(self, org_dataset, new_length):
