@@ -26,18 +26,6 @@ run ./matlab/SoundRecorderDemo2.m
     ├─USERSxxx_01.mat
     ├─		...
     └─USERSxxx_xx.mat
- 
-K:.
-├─Dataset
-│  └─USERS015
-│      ├─testset
-│      ├─trainset
-│      └─validset
-├─eemd
-│  └─USERS015
-├─原始数据
-└─同步数据
-    └─USERS015
 ```
 
 
