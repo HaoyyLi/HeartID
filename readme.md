@@ -22,6 +22,55 @@ The popularity of smart terminals and online payments has brought new challenges
 
 #### Code Implementation Notes
 
+**dictionary**
+
+```
+root
+│  readme(chinese).txt
+│  readme.md
+│
+├─matlab
+│  │  preprocess.m
+│  │  SoundRecorderDemo2.fig
+│  │  SoundRecorderDemo2.m
+│  │
+│  └─utils
+│          eemd2.m
+│          estimate_hurst_exponent.m
+│          peakdetact.m
+│          wavedenoising.m
+│
+└─python
+    ├─Authentication
+    │  │  cutpaste.py
+    │  │  dataset.py
+    │  │  density.py
+    │  │  eval.py
+    │  │  gmm.py
+    │  │  gmm_utils.py
+    │  │  HeartNet.py
+    │  │  model.py
+    │  │  requirements.txt
+    │  │  train.py
+    │  │  utils.py
+    │  │  utils_for_class.py
+    │  │
+    │  ├─eval
+    │  ├─logdirs
+    │  └─models
+    │
+    └─Identification
+        │  HeartNet.py
+        │  requirements.txt
+        │  test.py
+        │  train.py
+        │  utils.py
+        │
+        ├─log
+        ├─model
+        └─result
+```
+
 **envs:** python 3.7 and matlab 2021a
 
 **requirements**
@@ -145,4 +194,3 @@ run python test.py --dataset_path <path of the dataset>
 In the code\python\Authentication folder
 run python eval.py --trainpath <trainset(to choose threshold)> --evalpath <testset> --model_dir <model path>
 ```
-

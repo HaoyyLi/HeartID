@@ -22,6 +22,77 @@
 
 #### 项目代码使用说明
 
+**dictionary**
+
+```
+root
+│  readme(chinese).txt
+│  readme.md
+│
+├─matlab
+│  │  preprocess.m
+│  │  SoundRecorderDemo2.fig
+│  │  SoundRecorderDemo2.m
+│  │
+│  └─utils
+│          eemd2.m
+│          estimate_hurst_exponent.m
+│          peakdetact.m
+│          wavedenoising.m
+│
+└─python
+    ├─Authentication
+    │  │  cutpaste.py
+    │  │  dataset.py
+    │  │  density.py
+    │  │  eval.py
+    │  │  gmm.py
+    │  │  gmm_utils.py
+    │  │  HeartNet.py
+    │  │  model.py
+    │  │  requirements.txt
+    │  │  train.py
+    │  │  utils.py
+    │  │  utils_for_class.py
+    │  │
+    │  ├─eval
+    │  ├─logdirs
+    │  └─models
+    │
+    └─Identification
+        │  HeartNet.py
+        │  requirements.txt
+        │  test.py
+        │  train.py
+        │  utils.py
+        │
+        ├─log
+        ├─model
+        └─result
+```
+
+**envs:** python 3.7 and matlab 2021a
+
+**requirements**
+
+```
+einops==0.6.1
+h5py==3.7.0
+matplotlib==3.5.2
+numpy==1.21.6
+pandas==1.3.5
+scikit_learn==1.0.2
+seaborn==0.12.2
+torch==1.7.1
+torchvision==0.8.2
+tqdm==4.64.0
+joblib==1.2.0
+Pillow==9.3.0
+scipy==1.7.3
+```
+
+
+
 ##### 1、数据采集
 
 **设备**
