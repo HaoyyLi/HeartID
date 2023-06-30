@@ -194,3 +194,5 @@ run python test.py --dataset_path <path of the dataset>
 In the code\python\Authentication folder
 run python eval.py --trainpath <trainset(to choose threshold)> --evalpath <testset> --model_dir <model path>
 ```
+#### Data
+raw data and dataset can be downloaded from https://drive.google.com/file/d/1rzmYAlC3XPnA0OHMi_hl8HhkGEXdG--3/view?usp=sharing
